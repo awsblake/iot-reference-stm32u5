@@ -29,7 +29,7 @@ jobs:
         uses: FreeRTOS/CI-CD-Github-Actions/sbom-generator@main
         with:
           repo_path: ./
-          source_path: ./source
+          source_path: ./
       - name: commit SBOM file
         run: |
           git add .

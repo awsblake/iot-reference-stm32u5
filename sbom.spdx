@@ -1,0 +1,525 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: FreeRTOS STM32U5 Reference Integration
+DocumentNamespace: https://github.com/FreeRTOS/FreeRTOS STM32U5 Reference Integration/blob/202205.00/sbom.spdx
+Creator: Amazon Web Services
+Created: 2022-11-21T09:27:21Z
+CreatorComment: NOASSERTION
+DocumentComment: NOASSERTION
+
+PackageName: FreeRTOS STM32U5 Reference Integration
+SPDXID: SPDXRef-Package-FreeRTOS STM32U5 Reference Integration
+PackageVersion: 202205.00
+PackageDownloadLocation: https://github.com/awsblake/iot-reference-stm32u5/tree/202205.00
+PackageLicenseConcluded: MIT
+FilesAnalyzed: True
+PackageVerificationCode: 16011ff44cfa1b0ae42f2b21cfc9ba02a58effc6
+PackageCopyrightText: NOASSERTION
+PackageSummary: NOASSERTION
+PackageDescription: "Reference IoT integration project using the STMicroelectronics STM32U585 and FreeRTOS LTS libraries"
+
+FileName: ./Common/cli/logging.c
+SPDXID: SPDXRef-File-Common-cli-logging.c
+FileChecksum: SHA1: 8ae123f5b1db7b7798b5092f9c7db5f9bb8d7f67
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/cli/cli_rngtest.c
+SPDXID: SPDXRef-File-Common-cli-cli_rngtest.c
+FileChecksum: SHA1: 42b0b45b231edbcf1749f83e65a8b7bf0dee2a48
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/cli/cli_utils.c
+SPDXID: SPDXRef-File-Common-cli-cli_utils.c
+FileChecksum: SHA1: 96c89a6004b48b542ef0e83bdb19ae3fdf3b0869
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/cli/cli_uart_drv.c
+SPDXID: SPDXRef-File-Common-cli-cli_uart_drv.c
+FileChecksum: SHA1: 21e9af4b368f156a9a063895fe0937c7e66a5fa0
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/cli/cli_conf.c
+SPDXID: SPDXRef-File-Common-cli-cli_conf.c
+FileChecksum: SHA1: 8e60f79455ba965500513484e248b84b4dc4b8db
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/cli/cli_main.c
+SPDXID: SPDXRef-File-Common-cli-cli_main.c
+FileChecksum: SHA1: 22c079e69f0c568d422f801d5136be1e3adab338
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/cli/cli_pki.c
+SPDXID: SPDXRef-File-Common-cli-cli_pki.c
+FileChecksum: SHA1: a010c08b134e479260d44089d2309654c32a0a0b
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/sys/mbedtls_freertos_port.c
+SPDXID: SPDXRef-File-Common-sys-mbedtls_freertos_port.c
+FileChecksum: SHA1: fe10c0908385fc95053f397649892c0a367068b3
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/sys/hal_init.c
+SPDXID: SPDXRef-File-Common-sys-hal_init.c
+FileChecksum: SHA1: 4fe739daad3f1fac83bbf8601ceba9b8b6331cce
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/sys/newlibc_stubs.c
+SPDXID: SPDXRef-File-Common-sys-newlibc_stubs.c
+FileChecksum: SHA1: de27c5a83cf8632ed0069ae02232e0c873db8ba3
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/sys/interrupt_handlers.c
+SPDXID: SPDXRef-File-Common-sys-interrupt_handlers.c
+FileChecksum: SHA1: d74b7445ec79099df0aa6972238c162bd55ddea8
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/crypto/psa_util.c
+SPDXID: SPDXRef-File-Common-crypto-psa_util.c
+FileChecksum: SHA1: 180f7ccd966aa5432f627826de4fa6f7ace734f8
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/crypto/PkiObjectPsa.c
+SPDXID: SPDXRef-File-Common-crypto-PkiObjectPsa.c
+FileChecksum: SHA1: 8f03f8b31d8bee02018351b968ce5fbefba43fc8
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/crypto/mbedtls_pk_pkcs11.c
+SPDXID: SPDXRef-File-Common-crypto-mbedtls_pk_pkcs11.c
+FileChecksum: SHA1: c736c03cf9ef89b47f5491af08839c141dc68025
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/crypto/PkiObjectPkcs11.c
+SPDXID: SPDXRef-File-Common-crypto-PkiObjectPkcs11.c
+FileChecksum: SHA1: 84701ddbec70937149cde13cf1597d4d5ba7d758
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/crypto/mbedtls_pk_psa.c
+SPDXID: SPDXRef-File-Common-crypto-mbedtls_pk_psa.c
+FileChecksum: SHA1: 79ae4dfebecd7dd9da12c3df847248dd64c128e9
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/crypto/PkiObject.c
+SPDXID: SPDXRef-File-Common-crypto-PkiObject.c
+FileChecksum: SHA1: 042647dbe8bad1cc49b439a550129017ff5b6df9
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/net/mbedtls_transport.c
+SPDXID: SPDXRef-File-Common-net-mbedtls_transport.c
+FileChecksum: SHA1: 35e73e955e05b7b3f4dc3704f359cb3b4e953f06
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/net/mxchip/mx_ipc.c
+SPDXID: SPDXRef-File-Common-net-mxchip-mx_ipc.c
+FileChecksum: SHA1: ada822fb4b39a36f251634ed02830163f2b90b91
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/net/mxchip/mx_netconn.c
+SPDXID: SPDXRef-File-Common-net-mxchip-mx_netconn.c
+FileChecksum: SHA1: 164250932246e75e80125be06428ffa2de95f976
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/net/mxchip/mx_dataplane.c
+SPDXID: SPDXRef-File-Common-net-mxchip-mx_dataplane.c
+FileChecksum: SHA1: fe7a12593ab67cd92f791392e6238817ce211e7f
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/net/mxchip/mx_lwip.c
+SPDXID: SPDXRef-File-Common-net-mxchip-mx_lwip.c
+FileChecksum: SHA1: a7ae49570e1dbd4d031f56757a75f899d095691d
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/net/lwip_port/src/sys_arch.c
+SPDXID: SPDXRef-File-Common-net-lwip_port-src-sys_arch.c
+FileChecksum: SHA1: e829f6c0e4b77080a73c865696128f66e4b03f76
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/app/motion_sensors_publish.c
+SPDXID: SPDXRef-File-Common-app-motion_sensors_publish.c
+FileChecksum: SHA1: 9f782fff8135432c1f5c91c66641d5b37011d65f
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/app/shadow_device_task.c
+SPDXID: SPDXRef-File-Common-app-shadow_device_task.c
+FileChecksum: SHA1: f1231c32dce3521c66f801c654d6a1092b4db7fe
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/app/env_sensor_publish.c
+SPDXID: SPDXRef-File-Common-app-env_sensor_publish.c
+FileChecksum: SHA1: dd975044d7f78c0582ef8ae2cca9c82a6f076ee1
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/app/defender/metrics_collector_lwip.c
+SPDXID: SPDXRef-File-Common-app-defender-metrics_collector_lwip.c
+FileChecksum: SHA1: b86211032c7e2674a247084d5414837ab33cdc3e
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/app/defender/defender_task.c
+SPDXID: SPDXRef-File-Common-app-defender-defender_task.c
+FileChecksum: SHA1: 398c4922a1c575219ac6f920044551cf2d7fb06f
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/app/ota/ota_update_task.c
+SPDXID: SPDXRef-File-Common-app-ota-ota_update_task.c
+FileChecksum: SHA1: 08b3f2ccf2dd0ee7ce1c8f66f3b0181cf32bf33e
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/app/mqtt/mqtt_agent_task.c
+SPDXID: SPDXRef-File-Common-app-mqtt-mqtt_agent_task.c
+FileChecksum: SHA1: 5350fa321c887b4950b703e97a4fc8253e4185f7
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/app/mqtt/freertos_command_pool.c
+SPDXID: SPDXRef-File-Common-app-mqtt-freertos_command_pool.c
+FileChecksum: SHA1: 22f3404a9c6599b7e355feca40f23ef4137a7b9b
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/kvstore/kvstore.c
+SPDXID: SPDXRef-File-Common-kvstore-kvstore.c
+FileChecksum: SHA1: 7645b58c015f2bcf9a932e12a477acb99483ed5c
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/kvstore/kvstore_nv_psa_its.c
+SPDXID: SPDXRef-File-Common-kvstore-kvstore_nv_psa_its.c
+FileChecksum: SHA1: 03e901728a25b427a9bde386854f67baf7d3c67a
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/kvstore/kvstore_cache.c
+SPDXID: SPDXRef-File-Common-kvstore-kvstore_cache.c
+FileChecksum: SHA1: f1f1b24568781b79bbfcbdd6bc4a75c41286d868
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/kvstore/kvstore_nv_littlefs.c
+SPDXID: SPDXRef-File-Common-kvstore-kvstore_nv_littlefs.c
+FileChecksum: SHA1: 4272f07c4bc59728f695a0c560c516f80276fc7b
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Common/boards/stm32u5_iot_board.c
+SPDXID: SPDXRef-File-Common-boards-stm32u5_iot_board.c
+FileChecksum: SHA1: eb105c144a256ae250bcf1d29900d6e6de369f4b
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Drivers/CMSIS/Core/Template/ARMv8-M/tz_context.c
+SPDXID: SPDXRef-File-Drivers-CMSIS-Core-Template-ARMv8-M-tz_context.c
+FileChecksum: SHA1: e4cf7b2c876f0967ece3eea9c1b3214610e7579f
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Drivers/CMSIS/Core/Template/ARMv8-M/main_s.c
+SPDXID: SPDXRef-File-Drivers-CMSIS-Core-Template-ARMv8-M-main_s.c
+FileChecksum: SHA1: 937b566ce3d3fb5bc54a0ddf3ca22b79d857cb73
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Drivers/CommonIO/gpio/iot_gpio_stm32.c
+SPDXID: SPDXRef-File-Drivers-CommonIO-gpio-iot_gpio_stm32.c
+FileChecksum: SHA1: d16dda7c720ce6e576f3986a7a4c320bc3404216
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Drivers/CommonIO/uart/iot_uart_stm32u5.c
+SPDXID: SPDXRef-File-Drivers-CommonIO-uart-iot_uart_stm32u5.c
+FileChecksum: SHA1: 8c2381659686b2f96cdea9197cec1a9910d158c8
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Drivers/CommonIO/test/test_io_spi.c
+SPDXID: SPDXRef-File-Drivers-CommonIO-test-test_io_spi.c
+FileChecksum: SHA1: 122833606074ff5d0aa463187aa1eb6190759228
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Drivers/CommonIO/test/iot_test_common_io_internal.c
+SPDXID: SPDXRef-File-Drivers-CommonIO-test-iot_test_common_io_internal.c
+FileChecksum: SHA1: e3429f02dee86fc07928e9e46382fd9b5ff110bb
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Drivers/CommonIO/test/iot_test_common_io.c
+SPDXID: SPDXRef-File-Drivers-CommonIO-test-iot_test_common_io.c
+FileChecksum: SHA1: aeca382110a2416fc766951cede469b907181371
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Drivers/CommonIO/test/test_iot_uart.c
+SPDXID: SPDXRef-File-Drivers-CommonIO-test-test_iot_uart.c
+FileChecksum: SHA1: 826ec06e22fa66b18543af3942a0b2e1891f417b
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Drivers/CommonIO/spi/iot_spi_stm32u5.c
+SPDXID: SPDXRef-File-Drivers-CommonIO-spi-iot_spi_stm32u5.c
+FileChecksum: SHA1: e56214d7f90ba8156f733ee9e917afa77dd3a7da
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Drivers/stm32u5_mbedtls_accel/aes_alt.c
+SPDXID: SPDXRef-File-Drivers-stm32u5_mbedtls_accel-aes_alt.c
+FileChecksum: SHA1: 94e85f4f055539d4384efab7b9047c2ad78f221a
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Drivers/stm32u5_mbedtls_accel/md5_alt.c
+SPDXID: SPDXRef-File-Drivers-stm32u5_mbedtls_accel-md5_alt.c
+FileChecksum: SHA1: 6c3ecea60213dfc47d3458e27e2040aaf3a09fb7
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Drivers/stm32u5_mbedtls_accel/sha1_alt.c
+SPDXID: SPDXRef-File-Drivers-stm32u5_mbedtls_accel-sha1_alt.c
+FileChecksum: SHA1: 940a67810e283fbb2c9ef3f82a2b36bd37724656
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Drivers/stm32u5_mbedtls_accel/cryp_stm32.c
+SPDXID: SPDXRef-File-Drivers-stm32u5_mbedtls_accel-cryp_stm32.c
+FileChecksum: SHA1: 783e37dd141165c97f190a1dec3caa0d2b54fba6
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Drivers/stm32u5_mbedtls_accel/rsa_alt.c
+SPDXID: SPDXRef-File-Drivers-stm32u5_mbedtls_accel-rsa_alt.c
+FileChecksum: SHA1: b0387609a06ec1ada14bed0a298cf2b49c761d04
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Drivers/stm32u5_mbedtls_accel/sha256_alt.c
+SPDXID: SPDXRef-File-Drivers-stm32u5_mbedtls_accel-sha256_alt.c
+FileChecksum: SHA1: 8fd4cb85dc379fe6e277945bb2967b5c4996f8cd
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Drivers/stm32u5_mbedtls_accel/ecdsa_alt.c
+SPDXID: SPDXRef-File-Drivers-stm32u5_mbedtls_accel-ecdsa_alt.c
+FileChecksum: SHA1: 9f20d56ca23799341174fda9239ca17f01516544
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Drivers/stm32u5_mbedtls_accel/ecp_curves_alt.c
+SPDXID: SPDXRef-File-Drivers-stm32u5_mbedtls_accel-ecp_curves_alt.c
+FileChecksum: SHA1: 0fa7499d0e2311903227934f53ca708b4198c2d2
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Drivers/stm32u5_mbedtls_accel/hash_stm32.c
+SPDXID: SPDXRef-File-Drivers-stm32u5_mbedtls_accel-hash_stm32.c
+FileChecksum: SHA1: 4fc07502eeacafaf2a0bceb2bc4302d7d3e605b2
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Drivers/stm32u5_mbedtls_accel/ecp_alt.c
+SPDXID: SPDXRef-File-Drivers-stm32u5_mbedtls_accel-ecp_alt.c
+FileChecksum: SHA1: af49bc06a0c3bcf4c75ca6958ab77d18b38ffaf9
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Drivers/stm32u5_mbedtls_accel/gcm_alt.c
+SPDXID: SPDXRef-File-Drivers-stm32u5_mbedtls_accel-gcm_alt.c
+FileChecksum: SHA1: 0c51933294b58ed04234ff4d20598cbc7a7782d6
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Projects/b_u585i_iot02a_ntz/Src/app_main.c
+SPDXID: SPDXRef-File-Projects-b_u585i_iot02a_ntz-Src-app_main.c
+FileChecksum: SHA1: 86dcf4fac6f8bb00cd54c4c67f1e4f8ef9279cd2
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Projects/b_u585i_iot02a_ntz/Src/system_stm32u5xx.c
+SPDXID: SPDXRef-File-Projects-b_u585i_iot02a_ntz-Src-system_stm32u5xx.c
+FileChecksum: SHA1: 9ba907ab2a8e6972317354cdcd8ae36be4cd849d
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Projects/b_u585i_iot02a_ntz/Src/fs/lfs_port_ospi.c
+SPDXID: SPDXRef-File-Projects-b_u585i_iot02a_ntz-Src-fs-lfs_port_ospi.c
+FileChecksum: SHA1: 9346a98882a97c84fc917b8bdef5d58d5fceb557
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Projects/b_u585i_iot02a_ntz/Src/fs/ospi_nor_mx25lmxxx45g.c
+SPDXID: SPDXRef-File-Projects-b_u585i_iot02a_ntz-Src-fs-ospi_nor_mx25lmxxx45g.c
+FileChecksum: SHA1: c33b89de982d4f4defa11a2132181ce1fb51ee94
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Projects/b_u585i_iot02a_ntz/Src/fs/lfs_port_internal_nor.c
+SPDXID: SPDXRef-File-Projects-b_u585i_iot02a_ntz-Src-fs-lfs_port_internal_nor.c
+FileChecksum: SHA1: 21751df16aade23e15d98b37cbc88e2c164cfce9
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Projects/b_u585i_iot02a_ntz/Src/fs/lfs_port_prv.c
+SPDXID: SPDXRef-File-Projects-b_u585i_iot02a_ntz-Src-fs-lfs_port_prv.c
+FileChecksum: SHA1: 3d2eacf0dd186ebdbe33f60904d55890c95849a7
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Projects/b_u585i_iot02a_ntz/Src/crypto/rng_alt_stm32u5.c
+SPDXID: SPDXRef-File-Projects-b_u585i_iot02a_ntz-Src-crypto-rng_alt_stm32u5.c
+FileChecksum: SHA1: 46da74bdd0c2b6a5bd04093891d0fe6b57b34daa
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Projects/b_u585i_iot02a_ntz/Src/crypto/core_pkcs11_pal_littlefs.c
+SPDXID: SPDXRef-File-Projects-b_u585i_iot02a_ntz-Src-crypto-core_pkcs11_pal_littlefs.c
+FileChecksum: SHA1: fc524cf4cb41af1f26e5f31c3d84013e79cd5c70
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Projects/b_u585i_iot02a_ntz/Src/crypto/core_pkcs11_pal_utils.c
+SPDXID: SPDXRef-File-Projects-b_u585i_iot02a_ntz-Src-crypto-core_pkcs11_pal_utils.c
+FileChecksum: SHA1: 51c6260ddaf508f091cf3cf5a9b8542f1c7f0ace
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Projects/b_u585i_iot02a_ntz/Src/ota_pal/ota_pal_stm32u5_ntz.c
+SPDXID: SPDXRef-File-Projects-b_u585i_iot02a_ntz-Src-ota_pal-ota_pal_stm32u5_ntz.c
+FileChecksum: SHA1: 70570ae6192e687f3ccaa67c3c93c22d732f5ba9
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Projects/b_u585i_iot02a_ntz/Src/ota_pal/ota_firmware_version.c
+SPDXID: SPDXRef-File-Projects-b_u585i_iot02a_ntz-Src-ota_pal-ota_firmware_version.c
+FileChecksum: SHA1: 607f503b4ff04eca0d6c95911250740c9e4409d0
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Projects/b_u585i_iot02a_tfm/Src/app_main.c
+SPDXID: SPDXRef-File-Projects-b_u585i_iot02a_tfm-Src-app_main.c
+FileChecksum: SHA1: 2efe91bc209c0d5d15931eec9596b885cac37cb9
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Projects/b_u585i_iot02a_tfm/Src/startup_stm32u5xx_ns.c
+SPDXID: SPDXRef-File-Projects-b_u585i_iot02a_tfm-Src-startup_stm32u5xx_ns.c
+FileChecksum: SHA1: 269ec5b8913a07e717c4881232fb91ac4270c5ba
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Projects/b_u585i_iot02a_tfm/Src/system_stm32u5xx_ns.c
+SPDXID: SPDXRef-File-Projects-b_u585i_iot02a_tfm-Src-system_stm32u5xx_ns.c
+FileChecksum: SHA1: ba1a217d06d2f5c6864596454cded02b309ba38c
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Projects/b_u585i_iot02a_tfm/Src/tfm_ns_interface_freertos.c
+SPDXID: SPDXRef-File-Projects-b_u585i_iot02a_tfm-Src-tfm_ns_interface_freertos.c
+FileChecksum: SHA1: 31c3cb9ce02ca8401c019fc08465b2f96f2ed6d6
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+
+FileName: ./Projects/b_u585i_iot02a_tfm/Src/mbedtls_entropy_alt_psa.c
+SPDXID: SPDXRef-File-Projects-b_u585i_iot02a_tfm-Src-mbedtls_entropy_alt_psa.c
+FileChecksum: SHA1: 36fb50923bb518c890bd16168d8bd40e05c1af9c
+LicenseConcluded: MIT
+FileCopyrightText: NOASSERTION
+FileComment: NOASSERTION
+

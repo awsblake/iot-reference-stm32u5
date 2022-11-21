@@ -135,3 +135,5 @@ dependencies:
       type: "git"
       url: "https://github.com/nodejs/http-parser.git"
       path: "Middleware/http-parser"
+
+license: "MIT"

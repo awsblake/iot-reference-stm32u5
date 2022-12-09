@@ -98,7 +98,7 @@ jobs:
           - os: windows-latest
             ide_pkg_name: "st-stm32cubeide_1.10.1_12716_20220707_0928_x86_64"
             ide_pkg_url: "https://www.st.com/content/ccc/resource/technical/software/sw_development_suite/group0/f6/49/9f/f9/96/8a/47/84/stm32cubeide_win/files/st-stm32cubeide_1.10.1_12716_20220707_0928_x86_64.exe.zip/jcr:content/translations/en.st-stm32cubeide_1.10.1_12716_20220707_0928_x86_64.exe.zip"
-            scoop_pkg_deps: "cmake wget git python 7zip ninja"
+            scoop_pkg_deps: "cmake git python 7zip ninja"
             pip_pkg_deps: "virtualenv"
     env:
       IDE_PKG_NAME: ${{ matrix.ide_pkg_name }}

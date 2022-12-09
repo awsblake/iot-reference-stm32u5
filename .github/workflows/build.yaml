@@ -55,7 +55,7 @@ jobs:
         if: ${{ steps.cache.outputs.cache-hit != 'true' }}
         run: |
           mkdir -p ~/cache
-          wget --no-verbose ${{ matrix.ide_pkg_url }}
+          wget ${{ matrix.ide_pkg_url }}
           unzip en.${IDE_PKG_NAME}.sh.zip
           chmod +x ${IDE_PKG_NAME}.sh
           ./${IDE_PKG_NAME}.sh --tar -xf ./${IDE_PKG_NAME}.tar.gz

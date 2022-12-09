@@ -1,0 +1,44 @@
+name: wget
+
+on:
+  push:
+    branches:
+      - dev
+      - main
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - closed
+    branches:
+      - dev
+      - main
+  workflow_dispatch:
+
+jobs:
+  ubuntu:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        project: [b_u585i_iot02a_ntz]
+        include:
+          - os: ubuntu-latest
+            ide_pkg_name: "st-stm32cubeide_1.11.0_13638_20221122_1308_amd64"
+            ide_pkg_url: "https://www.st.com/content/ccc/resource/technical/software/sw_development_suite/group0/0c/78/32/f9/97/af/49/e3/stm32cubeide_lnx/files/st-stm32cubeide_1.11.0_13638_20221122_1308_amd64.sh.zip/jcr:content/translations/en.st-stm32cubeide_1.11.0_13638_20221122_1308_amd64.sh.zip"
+            apt_pkg_deps: "unzip cmake ninja-build python3 python3-pip python3-virtualenv rsync"
+    env:
+      IDE_PKG_NAME: ${{ matrix.ide_pkg_name }}
+      PROJECT_PATH: ${{ github.workspace }}/Projects/${{ matrix.project }}
+    steps:
+      - name: Download and unzip IDE
+        if: ${{ steps.cache.outputs.cache-hit != 'true' }}
+        run: |
+          mkdir -p ~/cache
+          curl -O ${{ matrix.ide_pkg_url }}
+          unzip en.${IDE_PKG_NAME}.sh.zip
+          chmod +x ${IDE_PKG_NAME}.sh
+          ./${IDE_PKG_NAME}.sh --tar -xf ./${IDE_PKG_NAME}.tar.gz
+          mv ${IDE_PKG_NAME}.tar.gz ~/cache/
+
+
+ 
